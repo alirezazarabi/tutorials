@@ -8,11 +8,11 @@ In this case, transactions are unnecessarily heavyweight and decrease throughput
 To remedy this, a confirmation mechanism was introduced.
 
 ### When use it?
-Publish confirm also has a performance impact, however, keep in mind that it is required if 
-the publisher needs at least once processing of messages.
+Publish confirm has a performance impact, keep in mind that it is required if the publisher needs
+at least once processing of messages.
 
 ### Appropriate actions for confirm callback.
-You can do logging or enqueuing a nack-ed message.
+You can do logging or enqueuing nack-ed messages.
 It can be tempting to re-publish a nack-ed message from the corresponding callback but this should be avoided,
 as confirm callbacks are dispatched in an I/O thread where channels are not supposed to do operations.
 A better solution consists in enqueuing the message in an in-memory queue which is polled by a publishing thread.
