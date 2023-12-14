@@ -4,8 +4,8 @@
 ### What is it?
 Using standard AMQP 0-9-1, the only way to guarantee that a message isn't lost is by using transactions.
 make the channel transactional then for each message or set of messages publish, commit.
-In this case, transactions are unnecessarily heavyweight and decrease throughput by a factor of 250.
-To remedy this, a confirmation mechanism was introduced.
+Transactions are unnecessarily heavyweight and decrease throughput by a factor of 250. To remedy this,
+a confirmation mechanism was introduced.
 
 ### When use it?
 Publish confirm has a performance impact, keep in mind that it is required if the publisher needs
