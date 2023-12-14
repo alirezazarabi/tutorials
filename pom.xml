@@ -18,7 +18,6 @@
 
     <modules>
         <module>rabbit-mq/publisher-confirms-spring-rabbit</module>
-        <module>rabbit-mq/publisher-confirms-spring-cloud-stream</module>
     </modules>
 
 </project>
