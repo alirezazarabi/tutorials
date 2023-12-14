@@ -9,14 +9,16 @@
     <version>1.0-SNAPSHOT</version>
     <packaging>pom</packaging>
 
-    <modules>
-<!--        <module>publisher-confirms-spring-rabbit</module>-->
-<!--        <module>publisher-confirms-spring-cloud-stream-binder-rabbit</module>-->
-    </modules>
+    <developers>
+        <developer>
+            <name>alireza zarabi</name>
+            <email>alirezazarabi@gmail.com</email>
+        </developer>
+    </developers>
 
-    <properties>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
-    </properties>
+    <modules>
+        <module>rabbit-mq/publisher-confirms-spring-rabbit</module>
+<!--        <module>rabbit-mq/publisher-confirms-spring-cloud-stream</module>-->
+    </modules>
 
 </project>
