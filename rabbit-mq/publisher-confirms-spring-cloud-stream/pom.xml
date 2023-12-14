@@ -13,6 +13,12 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<name>publisher-confirms-spring-cloud-stream</name>
 	<description>Demo project for publisher confirms feature of rabbit MQ</description>
+	<developers>
+		<developer>
+			<name>alireza zarabi</name>
+			<email>alirezazarabi@gmail.com</email>
+		</developer>
+	</developers>
 	<properties>
 		<java.version>17</java.version>
 		<spring-cloud.version>2023.0.0</spring-cloud.version>

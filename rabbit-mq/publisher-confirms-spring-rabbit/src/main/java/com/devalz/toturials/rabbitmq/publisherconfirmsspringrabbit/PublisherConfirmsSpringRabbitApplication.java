@@ -1,4 +1,4 @@
-package com.devalz.toturials.rabbitmq.publisherconfirms.springrabbit;
+package com.devalz.toturials.rabbitmq.publisherconfirmsspringrabbit;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

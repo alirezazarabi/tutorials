@@ -1,4 +1,4 @@
-package com.devalz.toturials.rabbitmq.publisherconfirms.springrabbit;
+package com.devalz.toturials.rabbitmq.publisherconfirmsspringrabbit;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;

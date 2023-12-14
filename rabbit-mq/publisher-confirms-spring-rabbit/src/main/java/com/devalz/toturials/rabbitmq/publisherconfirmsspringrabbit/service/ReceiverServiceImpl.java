@@ -1,4 +1,4 @@
-package com.devalz.toturials.rabbitmq.publisherconfirms.springrabbit.service;
+package com.devalz.toturials.rabbitmq.publisherconfirmsspringrabbit.service;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
